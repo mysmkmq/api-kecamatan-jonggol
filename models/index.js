@@ -17,15 +17,15 @@ if (config.use_env_variable) {
     host: config.host,
     port: config.port,
     dialect: config.dialect,
-    dialectOptions:{
+    dialectOptions: {
       ssl: {
         require: true,
         rejectUnauthorized: false,
       }
     },
     define: {
-    underscored: true,
-  },
+      underscored: true,
+    },
   });
 }
 

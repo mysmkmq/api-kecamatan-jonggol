@@ -23,7 +23,6 @@ module.exports = {
     port: process.env.DB_PORT,
     dialect: process.env.DB_DIALECT,
     timezone: "+07:00",
-    protocol: 'mysql',
     dialectOptions: {
       ssl: true,
       native:true
